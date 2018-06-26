@@ -1,4 +1,4 @@
-package com.zbl.baozoudaily.xserver.user;
+package com.zbl.baozoudaily.xserver.user.response;
 
 
 /**
@@ -6,10 +6,10 @@ package com.zbl.baozoudaily.xserver.user;
  */
 public class UserBean {
 
-    public String access_token = "";
-    public String avatar = "";
-    public String name = "";
-    public String user_id = "";
+    private String access_token = "";
+    private String avatar = "";
+    private String name = "";
+    private String user_id = "";
 
     public String getAccess_token() {
         return access_token;

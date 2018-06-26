@@ -1,5 +1,6 @@
 package com.zbl.baozoudaily.xserver.user;
 
+import com.zbl.baozoudaily.xserver.user.response.UserBean;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @RequestMapping(value = "/**/user/login", method = RequestMethod.POST)
-    private UserBean getHelloPage() {
+    private UserBean userLogin() {
         UserBean userBean = new UserBean();
         userBean.setName("zbl");
         userBean.setUser_id("12321");
