@@ -1,4 +1,4 @@
-package com.zbl.baozoudaily.xserver.user.response;
+package com.zbl.baozoudaily.xserver.main.user.response;
 
 
 /**

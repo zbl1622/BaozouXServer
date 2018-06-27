@@ -1,4 +1,4 @@
-package com.zbl.baozoudaily.xserver.article.response;
+package com.zbl.baozoudaily.xserver.main.article.response;
 
 import java.util.ArrayList;
 import java.util.List;

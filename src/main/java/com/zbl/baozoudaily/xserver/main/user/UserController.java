@@ -1,6 +1,6 @@
-package com.zbl.baozoudaily.xserver.user;
+package com.zbl.baozoudaily.xserver.main.user;
 
-import com.zbl.baozoudaily.xserver.user.response.UserBean;
+import com.zbl.baozoudaily.xserver.main.user.response.UserBean;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

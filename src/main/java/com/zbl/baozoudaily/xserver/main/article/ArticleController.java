@@ -1,8 +1,8 @@
-package com.zbl.baozoudaily.xserver.article;
+package com.zbl.baozoudaily.xserver.main.article;
 
-import com.zbl.baozoudaily.xserver.article.response.DocumentBean;
-import com.zbl.baozoudaily.xserver.article.response.FavoritesBean;
-import com.zbl.baozoudaily.xserver.article.response.MainTabBean;
+import com.zbl.baozoudaily.xserver.main.article.response.DocumentBean;
+import com.zbl.baozoudaily.xserver.main.article.response.FavoritesBean;
+import com.zbl.baozoudaily.xserver.main.article.response.MainTabBean;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
